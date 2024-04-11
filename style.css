@@ -1,0 +1,241 @@
+/* issues im having:
+    1. .block uneven... maybe cuz inline table?
+        - was grid w left float but dont like how it was left justified....
+    2. MAKE LINK ON COOL THINGS A BUTTON*/
+    .caprasimo-regular {
+        font-family: "Caprasimo", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+    
+h1 {
+    font-size: 2.5rem;
+    font-family: "caprasimo";
+    color: #1c3838;
+}
+
+h2 {
+    font-family: "caprasimo";
+    color: #1c3838; 
+}
+
+h3 {
+    font-family: "caprasimo";
+    color: #1c3838;
+}
+
+h4 {
+    color:#1c3838;
+    font-family: "caprasimo";
+}
+
+h5{
+    font-weight: lighter;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    align-content: center;
+    margin: 20px;
+    background: #a4cccd;
+}
+
+p {
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-indent: 5%;
+}
+
+b {
+    font-family: "caprasimo";
+    color: #1c3838;
+}
+
+a {
+    color: #1c3838;
+    text-decoration: none;
+    font-family: "caprasimo";
+}
+
+.content {
+    text-align: center;
+}
+
+.caprasimo-regular {
+    font-family: "Caprasimo", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.block {
+    display: grid;
+    padding: 20px;
+    margin: 5%;
+    width: 250px;
+    height: 500px;
+    margin: 25px;
+    float: left;
+    border-radius: 12px;
+    justify-content: center;
+    background: #f9f9f9;
+}
+
+.block p{
+    text-align: center;
+}
+
+nav{
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 12px;
+    display: inline-block;
+    font-family: "caprasimo";
+    color: #1c3838;
+}
+
+ol {
+    text-align: left;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+li {
+    padding: 10px;
+}
+
+.block-img {
+    width: 100%;
+    padding: 5px;
+}
+
+footer {
+    clear: both;
+    padding: 5%;
+}
+
+.current{
+    font-size: 20px;
+    font-weight: bold;
+    color: #5F9D9E;
+}
+
+.button {
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    font-family: "caprasimo";
+    float: none;
+    justify-content: center;
+    border-radius: 12px;
+    color: #1c3838;
+    background-color: #5F9D9E;
+
+}
+
+.external {
+    margin: 50px;
+}
+
+.button:hover {
+    background-color: #d1d1d1;
+    transition: 0.5s ease;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+}
+
+.links h2 {
+    text-align: center;
+}
+
+img{
+    border-radius: 8px;
+}
+
+.shop{
+    /* float: left; */
+    background: #f9f9f9;
+    padding: 2%;
+    margin: 20px;
+    justify-content: left;
+    border-radius: 12px;
+    display: inline-block;
+    width: 33%; /* revisit this pls */
+}
+/* these are break points, they change with the viewport :) */
+
+.shop p{
+    text-align: center;
+    font-family: "Caprasimo", serif;
+    color:#417d7d;
+    font-size: 16px;
+} 
+
+@media (max-width: 600px){
+    h1{
+        font-size: 2rem;
+    }
+
+    p{
+        font-size: 0.75rem;
+    }
+    nav{
+        font-size: 1rem;
+    }
+    .current{
+        font-size: 1.25rem;
+    }
+}
+
+@media (min-width: 801px){
+    h1{
+        font-size: 2.5rem;
+    }
+
+    p{
+        font-size: 1rem;
+    }
+    nav{
+        font-size: 1.5rem;
+    }
+    .current{
+        font-size: 1.75rem;
+    }
+}
+
+@media (min-width: 1001px){
+    h1{
+        font-size: 3rem;
+    }
+
+    p{
+        font-size: 1rem;
+    }
+    nav{
+        font-size: 1.5rem;
+    }
+    .current{
+        font-size: 2rem;
+    }
+    iframe{
+        width: 560px;
+        height: 315px;
+    }
+}
+
+footer {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 12px;
+    margin: 20px;
+}
+
